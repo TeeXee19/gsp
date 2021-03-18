@@ -10162,12 +10162,29 @@ footer .widget-instagram .insta-hover i {
   background-repeat: no-repeat;
 }
 
+.bg-success-image {
+  background: url("../images/mail.svg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
 .bg-image {
   background: url("../images/group-of-company-img.jpeg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
+}
+
+.success-section{
+  margin-top: 10%;
+}
+
+.success-message{
+  font-size:20px;
+  color:#5C5C5C;
+  
 }
 
 
