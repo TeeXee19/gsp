@@ -10197,6 +10197,15 @@ footer .widget-instagram .insta-hover i {
 }
 
 
+.bg-img{
+  background-image: url('../images/identity-11.png');
+  background-size: cover;
+  /*height: 10000px;*/
+  background-repeat: no-repeat;
+  /*background-blend-mode: soft-light;*/
+  /*background-color: #3b484130;*/
+}
+
 
 .st0{fill:#fff}
 .st2{fill:#6dc871}
