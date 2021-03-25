@@ -35,7 +35,7 @@
     ============================================= -->
 <title>GSP </title>
 </head>
-<body class="bg-image">
+<body >
 
 <div id="wrapper" class="wrapper clearfix">
 	<header id="navbar-spy" class="header header-1 header-transparent">
@@ -297,10 +297,10 @@
 
 </div>
 
-<section class="bg-light py-10">
+<section class="bg-light ">
                         <div class="container">
                             <div class="row justify-content-center">
-                                <div class="col-lg-6">
+                                <div class="col-lg-6 pt-5">
                                     <div class="text-center">
                                         <div class="text-xs text-uppercase-expanded text-primary mb-2">Application Features</div>
                                         <h2 class="mb-5">We have a simple solution to a complex problem</h2>
@@ -353,6 +353,61 @@
                             </div>
                         </div>
                     </section>
+
+<footer class="footer-bs">
+    <div class="row container">
+        <div class="col-md-4 footer-brand animated fadeInLeft">
+            <h4 class="text-theme">Office Address</h4>
+            <p>61, Adetokunbo Ademola Crescent, Wuse 2, Abuja, FCT. Nigeria.</p>
+            <h4 class="text-theme">Phone</h4>
+            <a href="tel: +2348073990518">+ 234 (807) 399 0518</a>
+            <h4 class="text-theme">Email</h4>
+            <a href="mailto:servicedesk@galaxybackbone.com.ng?subject=feedback" >servicedesk@galaxybackbone.com.ng</a>
+
+        </div>
+        <div class="col-md-4 footer-nav animated fadeInUp">
+            <div class="row">
+                <div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">Rates</a></li>
+                        <li><a href="#">Peezy Apps</a></li>
+                        <li><a href="<?php echo Url::toRoute(['site/faq']) ?>">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">Referral Program</a></li>
+                        <li><a href="#">Peezy Point</a></li>
+                        <li><a href="#">Peezy Plans</a></li>
+                        <li><a href="#">Gift Certificate</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</footer>
+<div class="below-footer">
+    <div>
+        <center>
+            <!-- <img src="img/paypal.png"> -->
+            <?php echo Html::img('@web/peezy_front_ui_assets/img/paypal.png') ?>
+            <!-- <img src="img/master.png"> -->
+            <?php echo Html::img('@web/peezy_front_ui_assets/img/master.png') ?>
+            <!-- <img src="img/visa.png"> -->
+            <?php echo Html::img('@web/peezy_front_ui_assets/img/visa.png') ?>
+        </center>
+    </div>
+    <a href="#">Privacy Policy |</a>
+    <a href="#">Terms of Use |</a>
+    <a href="#">Online Security |</a>
+    <a href="#">About Us |</a>
+    <a href="#">Contact Us</a>
+    <p>2021 Interra Networks, Inc. All rights reserved.</p>
+</div>
+
+
 
 
 <script src="assets/js/jquery-3.3.1.min.js"></script>
