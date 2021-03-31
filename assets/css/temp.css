@@ -1312,7 +1312,7 @@ textarea.form-control {
 
 .dropdown-menu {
   position: absolute;
-  top: 100%;
+  top: 60%;
   left: 0;
   z-index: 1000;
   display: none;

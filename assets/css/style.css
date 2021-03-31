@@ -10681,4 +10681,17 @@ footer .widget-instagram .insta-hover i {
   margin: 0px;
 }
 
+.mda_tabs{
+  height: 100vh;
+border: 1px solid #8ec190;
+border-top: 0px;
+padding: 0;
+}
 
+.mda_items{
+  height: 35px;
+padding: 10px;
+justify-content: center;
+display: flex;
+border: 1px solid aliceblue;
+}
