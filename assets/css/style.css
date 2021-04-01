@@ -10688,10 +10688,61 @@ border-top: 0px;
 padding: 0;
 }
 
+
+.mda{
+  margin: 15px;
+}
+
 .mda_items{
-  height: 35px;
+height: 35px;
 padding: 10px;
 justify-content: center;
 display: flex;
 border: 1px solid aliceblue;
+}
+
+.ministry{
+  margin: auto;
+}
+.ministry div ul li a{
+  float: inline-end
+}
+
+.ministry .card{
+  background: #fdfdfd;
+  border-radius: 5px;
+  padding: 0px;
+  margin: 10px;
+  box-shadow: 5px 3px 8px #c1bbbb;
+}
+
+.ministry .card .card-body{
+  margin: 0 15px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
 }

@@ -85,9 +85,22 @@
                         <!-- /.container -->
                     </nav>
             </header>
-	
-<div class="row">
-    <div class="col-2 mda_tabs">
+<div class="topnav">
+    <a type="btn"  onclick="toggle(m)" role="button">
+        <div >
+          Ministries
+        </div></a>
+        <a type="btn" onclick="toggle(d)" role="button"><div >
+            Departments
+        </div></a>
+
+        <a type="btn" onclick="toggle(a)" role="button"><div >
+           Agencies
+        </div></a>
+</div>
+
+<!-- <div class="row">
+ -->    <!-- <div class="col-2 mda_tabs">
          <a type="btn" onclick="toggle(m)" role="button">
         <div class="mda_items nav-link">
           Ministries
@@ -99,16 +112,16 @@
         <a type="btn" onclick="toggle(a)" role="button"><div class="mda_items">
            Agencies
         </div></a>
-    </div>
-    <div class="col-10">
+    </div> -->
+<div >
         
-<div class="mda mt-1" id="m">
+<div class="mda " id="m">
     <h2>List of Ministries</h2>
     <hr>
-    <section >
-      <div class="row justify-content-center pt-3">
-        <div class="col-sm-4 col-md-4 col-lg-4">
-           <ul>
+    <section class="ministry">
+      <div class="row justify-content-center pt-3" style="margin: auto;">
+        <div class="col-lg-5 card ">
+           <ul class="card-body">
               <li>Agriculture: <a href="http://fmard.gov.ng/" target="_blank">http://fmard.gov.ng/</a></li>
               <li>Aviation: <a href="http://aviation.gov.ng/" target="_blank">http://aviation.gov.ng/</a></li>
               <li>Defence: <a href="http://www.defence.gov.ng/" target="_blank">http://www.defence.gov.ng/</a></li>
@@ -119,30 +132,40 @@
               <li>Finance: <a href="http://www.finance.gov.ng" target="_blank">http://www.finance.gov.ng</a></li>
            </ul>
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
-           <ul>
-            <li>Foreign Affairs: <a href="" target="_blank"></a></li>
-            <li>Health: <a href="" target="_blank"></a></li>
-            <li>Information and Culture: <a href="" target="_blank"></a></li>
-            <li>Interior: <a href="" target="_blank"></a></li>
-            <li>Justice: <a href="" target="_blank"></a></li>
-            <li>Labour and Productivity: <a href="" target="_blank"></a></li>
-            <li>Lands & Urban Development: <a href="" target="_blank"></a></li>
-            <li>Mines and Steel Development: <a href="" target="_blank"></a></li>
+       <div class="col-lg-5 card">
+           <ul class="card-body">
+                <li>Foreign Affairs: <a href="http://foreignaffairs.gov.ng/" target="_blank">http://foreignaffairs.gov.ng/</a></li>
+                <li>Health: <a href="http://health.gov.ng/" target="_blank">http://health.gov.ng/</a></li>
+                <li>Information and Culture: <a href="http://fmic.gov.ng/" target="_blank">http://fmic.gov.ng/</a></li>
+                <li>Interior: <a href="http://www.interior.gov.ng" target="_blank">http://www.interior.gov.ng</a></li>
+                <li>Justice: <a href="http://www.justice.gov.ng/" target="_blank">http://www.justice.gov.ng/</a></li>
+                <li>Labour and Productivity: <a href="http://labour.gov.ng" target="_blank">http://labour.gov.ng</a></li>
+                <li>Lands & Urban Development: <a href="http://www.landsandhousing.gov.ng" target="_blank">http://www.landsandhousing.gov.ng</a></li>
+                <li>Mines and Steel Development: <a href="http://minesandsteel.gov.ng" target="_blank">http://minesandsteel.gov.ng</a></li>
            </ul> 
         </div>
-        <div class="col-sm-4 col-md-4 col-lg-4">
-           <ul>
-              <li>Accident Investigation Bureau (AIB): <a href="" target="_blank"></a></li>
-              <li>Asset Management Corporation of Nigeria (AMCON): <a href="http://https://amcon.com.ng" target="_blank">amcon.com.ng</a></li>
+        </div>
+
+        <div class="row justify-content-center pt-3" style="margin: auto;" >
+        <div class="col-lg-5 card ">
+           <ul class="card-body">
+                <li>Niger Delta<a href="http://nigerdelta.gov.ng/" target="_blank">http://nigerdelta.gov.ng/</a></li>
+                <li>Petroleum Resources<a href="http://petroleumresources.gov.ng/" target="_blank">http://petroleumresources.gov.ng/</a></li>
+                <li>Power<a href="https://www.power.gov.ng" target="_blank">https://www.power.gov.ng</a></li>
+                <li>Science & Technology<a href="http://www.scienceandtech.gov.ng/" target="_blank">http://www.scienceandtech.gov.ng/</a></li>
+                <li>Trade and Investment<a href="http://nid.fmiti.gov.ng" target="_blank">http://nid.fmiti.gov.ng</a></li>
+                <li>Transportation<a href="http://www.transportation.gov.ng" target="_blank">http://www.transportation.gov.ng</a></li>
+                <li>Water Resources<a href="https://waterresources.gov.ng" target="_blank">https://waterresources.gov.ng</a></li>
+                <li>Women Affairs<a href="https://www.womenaffairs.gov.ng/" target="_blank">https://www.womenaffairs.gov.ng/</a></li>
            </ul>
         </div>
-    </div>
-        <div >
-            <ul>
-                <li>Accident Investigation Bureau (AIB): <a href="http://aib.gov.ng" target="_blank">aib.gov.ng</a></li>
-                <li>Asset Management Corporation of Nigeria (AMCON): <a href="http://https://amcon.com.ng" target="_blank">amcon.com.ng</a></li>
+     
+        <div class="col-lg-5 card ">
+           <ul class="card-body">
+                <li>Works and Housing<<a href="https://worksandhousing.gov.ng" target="_blank">https://worksandhousing.gov.ng</a></li>
+                <li>Youth Development<<a href="http://www.youthdevelopment.gov.ng/" target="_blank">http://www.youthdevelopment.gov.ng/</a></li>
             </ul>
+        </div>
         </div>
     </section>
 </div>
@@ -1309,6 +1332,11 @@ function toggle(mdaTab){
   $('.mda').hide();
   $(mdaTab).show(); 
 };
+
+$('.topnav  a').on('click', function(){
+    $('.topnav a.active').removeClass('active');
+    $(this).addClass('active');
+});
 </script>
 </body>
 </html>
